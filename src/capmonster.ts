@@ -4,7 +4,7 @@ import { CapmonsterError } from "./capmonster_error"
 
 export class CapmonsterClient {
     clientKey: string
-    private static hostUrl = "https://api.capmonster.cloud"
+    static hostUrl = "https://api.capmonster.cloud"
     private static balanceUrl = "/getBalance"
     private static createTaskUrl = "/createTask"
     private static taskResultUrl = "/getTaskResult"
